@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zerock.myapp.controller.SearchResultController">
+   <children>
+      <Label contentDisplay="CENTER" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #d3d3d3; -fx-alignment: center;" text="사원검색" textAlignment="RIGHT">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" layoutX="2.0" layoutY="1.0" mnemonicParsing="false" onAction="#home" prefHeight="50.0" prefWidth="50.0" text="H">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="346.0" layoutY="2.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="50.0" text="B">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="backtothesearch" layoutY="540.0" mnemonicParsing="false" onAction="#backtothesearch" prefHeight="60.0" prefWidth="400.0" text="돌아가기">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="textarea" editable="false" layoutX="9.0" layoutY="65.0" prefHeight="50.0" prefWidth="380.0" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <ScrollPane layoutX="8.0" layoutY="120.0" prefHeight="408.0" prefWidth="382.0">
+         <content>
+            <TableView fx:id="tableview" prefHeight="406.0" prefWidth="380.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

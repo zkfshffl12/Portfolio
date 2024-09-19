@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zerock.myapp.controller.D_departmentsController">
+   <children>
+      <Label fx:id="lDepartmentId" layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="87.0" text="department_Id" />
+      <Label fx:id="lManagerId" layoutX="14.0" layoutY="76.0" prefHeight="30.0" prefWidth="75.0" text="manager_id" />
+      <Label fx:id="lDepartmentName" layoutX="14.0" layoutY="45.0" prefHeight="30.0" prefWidth="112.0" text="department_name" />
+      <Label fx:id="lLocationId" layoutX="14.0" layoutY="107.0" prefHeight="30.0" prefWidth="75.0" text="location_id" />
+      
+      <TextField fx:id="tDepartmentId" layoutX="207.0" layoutY="20.0" prefHeight="25.0" prefWidth="158.0" />
+      <TextField fx:id="tDepartmentName" layoutX="207.0" layoutY="49.0" prefHeight="25.0" prefWidth="158.0" />
+      <TextField fx:id="tManagerId" layoutX="207.0" layoutY="80.0" prefHeight="25.0" prefWidth="158.0" />
+      <TextField fx:id="tLocationId" layoutX="207.0" layoutY="111.0" prefHeight="25.0" prefWidth="158.0" />
+      
+      <ComboBox fx:id="cDepartmentId" layoutX="131.0" layoutY="20.0" prefHeight="22.0" prefWidth="68.0" />
+      <ComboBox fx:id="cDepartmentName" layoutX="131.0" layoutY="49.0" prefHeight="22.0" prefWidth="68.0" />
+      <ComboBox fx:id="cManagerId" layoutX="131.0" layoutY="80.0" prefHeight="22.0" prefWidth="68.0" />
+      <ComboBox fx:id="cLocationId" layoutX="131.0" layoutY="111.0" prefHeight="22.0" prefWidth="68.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>

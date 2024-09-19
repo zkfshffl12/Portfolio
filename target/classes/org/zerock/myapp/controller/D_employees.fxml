@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zerock.myapp.controller.D_employeesController">
+   <children>
+      <Label fx:id="lEmployeeId" layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="75.0" text="Employee_Id" />
+      <Label fx:id="lLastName" layoutX="14.0" layoutY="76.0" prefHeight="30.0" prefWidth="75.0" text="Last_Name" />
+      <Label fx:id="lFirstName" layoutX="14.0" layoutY="45.0" prefHeight="30.0" prefWidth="75.0" text="First_Name" />
+      <Label fx:id="lPhoneNumber" layoutX="11.0" layoutY="139.0" prefHeight="30.0" prefWidth="90.0" text="Phone_Number" />
+      <Label fx:id="lEmail" layoutX="14.0" layoutY="107.0" prefHeight="30.0" prefWidth="75.0" text="Email" />
+      <Label fx:id="lDepartmentId" layoutX="14.0" layoutY="325.0" prefHeight="30.0" prefWidth="84.0" text="Department_Id" />
+      <Label fx:id="lHireDate" layoutX="14.0" layoutY="170.0" prefHeight="30.0" prefWidth="75.0" text="Hire_Date" />
+      <Label fx:id="lSalary" layoutX="14.0" layoutY="231.0" prefHeight="30.0" prefWidth="75.0" text="Salary" />
+      <Label fx:id="lJobId" layoutX="14.0" layoutY="200.0" prefHeight="30.0" prefWidth="75.0" text="Job_Id" />
+      <Label fx:id="lComutionPct" layoutX="11.0" layoutY="261.0" prefHeight="30.0" prefWidth="90.0" text="Comution_Pct" />
+      <Label fx:id="lManagerId" layoutX="11.0" layoutY="291.0" prefHeight="30.0" prefWidth="75.0" text="Manager_Id" />
+      
+      <TextField fx:id="tEmployeeId" layoutX="172.0" layoutY="20.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tLastName" layoutX="172.0" layoutY="49.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tFirstName" layoutX="172.0" layoutY="80.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tPhoneNumber" layoutX="172.0" layoutY="111.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tEmail" layoutX="172.0" layoutY="142.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tDepartmentId" layoutX="172.0" layoutY="203.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tSalary" layoutX="172.0" layoutY="234.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tJobId" layoutX="171.0" layoutY="265.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tComutionPct" layoutX="171.0" layoutY="296.0" prefHeight="22.0" prefWidth="193.0" />
+      <TextField fx:id="tManagerId" layoutX="171.0" layoutY="327.0" prefHeight="22.0" prefWidth="193.0" />
+      
+      <ComboBox fx:id="cEmployeeId" layoutX="89.0" layoutY="20.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cLastName" layoutX="89.0" layoutY="49.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cFirstName" layoutX="89.0" layoutY="80.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cPhoneNumber" layoutX="89.0" layoutY="111.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cEmail" layoutX="100.0" layoutY="142.0" prefHeight="22.0" prefWidth="66.0" />
+      <ComboBox fx:id="cDepartmentId" layoutX="89.0" layoutY="173.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cHireDate" layoutX="89.0" layoutY="203.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cSalary" layoutX="89.0" layoutY="234.0" prefHeight="22.0" prefWidth="75.0" />
+      <ComboBox fx:id="cJobId" layoutX="98.0" layoutY="265.0" prefHeight="22.0" prefWidth="66.0" />
+      <ComboBox fx:id="cComutionPct" layoutX="98.0" layoutY="328.0" prefHeight="22.0" prefWidth="66.0" />
+      <ComboBox fx:id="cManagerId" layoutX="89.0" layoutY="297.0" prefHeight="22.0" prefWidth="75.0" />
+      
+      <DatePicker fx:id="datepicker" layoutX="171.0" layoutY="172.0" prefHeight="22.0" prefWidth="193.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>

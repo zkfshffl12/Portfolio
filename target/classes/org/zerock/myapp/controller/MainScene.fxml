@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zerock.myapp.controller.MainSceneController">
+         <children>
+         	<Label contentDisplay="CENTER" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #d3d3d3; -fx-alignment: center;" text="사원관리" textAlignment="RIGHT">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         	<Button fx:id="search" layoutX="20.0" layoutY="163.0" mnemonicParsing="false" onAction="#search" prefHeight="60.0" prefWidth="360.0" text="사원 검색" textAlignment="CENTER">
+               <font>
+                  <Font name="Dotum" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="insert" layoutX="20.0" layoutY="240.0" mnemonicParsing="false" onAction="#insert" prefHeight="60.0" prefWidth="360.0" text="사원 등록" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="update" layoutX="201.0" layoutY="320.0" mnemonicParsing="false" onAction="#update" prefHeight="60.0" prefWidth="179.0" text="부서 수정" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+		    <Button fx:id="remove" layoutX="20.0" layoutY="397.0" mnemonicParsing="false" onAction="#remove" prefHeight="60.0" prefWidth="360.0" text="사원 삭제" textAlignment="CENTER">
+		       <font>
+		          <Font size="18.0" />
+		       </font>
+		    </Button>
+		    <Button fx:id="home" layoutX="2.0" layoutY="1.0" mnemonicParsing="false" onAction="#home" prefHeight="50.0" prefWidth="50.0" text="H">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="back" layoutX="346.0" layoutY="2.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="50.0" text="B">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+	       <Button fx:id="insert1" layoutX="201.0" layoutY="240.0" mnemonicParsing="false" onAction="#insert1" prefHeight="60.0" prefWidth="179.0" text="희재's 사원 등록"  visible="false" textAlignment="CENTER">
+	          <font>
+	             <Font size="18.0" />
+	          </font>
+	       </Button>
+	      <Button fx:id="update1" layoutX="20.0" layoutY="320.0" mnemonicParsing="false" onAction="#update1" prefHeight="60.0" prefWidth="179.0" text="사원 수정" textAlignment="CENTER">
+	         <font>
+	            <Font size="18.0" />
+	         </font>
+	      </Button>
+         </children>
+      </AnchorPane>

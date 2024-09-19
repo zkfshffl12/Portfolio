@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="condition" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="85.0" prefWidth="372.0" style="-fx-border-color: #808080;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zerock.myapp.controller.ConditionController">
+   <children>
+   	  <Label fx:id="table" layoutX="8.0" layoutY="4.0" prefHeight="20.0" prefWidth="120.0" text="text" />
+      <ComboBox fx:id="comboOperator" layoutX="174.0" layoutY="25.0" prefHeight="35.0" prefWidth="60.0" promptText="-" />
+      <TextField fx:id="column" editable="false" layoutX="82.0" layoutY="25.0" prefHeight="35.0" prefWidth="90.0" text="text" />
+      <ComboBox fx:id="comboAndOr" layoutX="10.0" layoutY="25.0" prefHeight="35.0" prefWidth="70.0" promptText="-" />
+      <TextField fx:id="value" layoutX="236.0" layoutY="25.0" prefHeight="35.0" prefWidth="90.0" />
+      <DatePicker fx:id="date" layoutX="236.0" layoutY="25.0" onAction="#date" prefHeight="35.0" prefWidth="90.0" visible="false" />
+      <Button fx:id="remove" layoutX="328.0" layoutY="25.0" mnemonicParsing="false" onAction="#remove" prefHeight="35.0" prefWidth="35.0" text="D">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

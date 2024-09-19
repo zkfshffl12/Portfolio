@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zerock.myapp.controller.dptController">
+   <children>
+      <Label layoutX="157.0" layoutY="17.0" prefHeight="35.0" prefWidth="108.0" text="부서 수정">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_IdTF" layoutX="21.0" layoutY="98.0" prefHeight="34.0" prefWidth="136.0" text="Department_Id" />
+      <Label fx:id="label_NameTF" layoutX="5.0" layoutY="182.0" prefHeight="34.0" prefWidth="136.0" text="Department_Name" />
+      <Label fx:id="label_manager_IdTF" layoutX="36.0" layoutY="250.0" prefHeight="34.0" prefWidth="136.0" text="Manager_Id" />
+      <Label fx:id="label_location_IdTF" layoutX="38.0" layoutY="316.0" prefHeight="34.0" prefWidth="136.0" text="Location_Id" />
+      <Button layoutX="338.0" layoutY="22.0" mnemonicParsing="false" onAction="#home" text="BACK" />
+      <Button layoutX="21.0" layoutY="22.0" mnemonicParsing="false" onAction="#home" text="HOME" />
+     
+      <TextField fx:id="dpt_IdTF" layoutX="126.0" layoutY="101.0" prefHeight="25.0" prefWidth="235.0" />
+      <TextField fx:id="dpt_NameTF" layoutX="126.0" layoutY="187.0" prefHeight="25.0" prefWidth="235.0" />
+      <TextField fx:id="manager_IdTF" layoutX="126.0" layoutY="255.0" prefHeight="25.0" prefWidth="235.0" />
+      <TextField fx:id="location_IdTF" layoutX="126.0" layoutY="321.0" prefHeight="25.0" prefWidth="235.0" />
+      <Button layoutX="165.0" layoutY="395.0" mnemonicParsing="false" onAction="#btn3_Method" prefHeight="31.0" prefWidth="71.0" text="수정하기" />
+      <Label layoutX="68.0" layoutY="146.0" prefHeight="17.0" prefWidth="264.0" text="부서 번호를 기준으로 아래 정보들을 수정합니다." />
+      
+      
+   </children>
+</AnchorPane>
